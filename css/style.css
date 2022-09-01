@@ -1,0 +1,56 @@
+/*Linkeo con paginas scss */
+header {
+  justify-content: space-evenly;
+  align-items: center; }
+  header ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between; }
+
+.footer ol {
+  list-style: none;
+  display: flex;
+  background-color: #B08968;
+  color: black;
+  justify-content: space-around;
+  font-weight: bold; }
+
+.footer p {
+  text-align: center;
+  font-weight: bold; }
+
+.p1 {
+  background-color: yellow;
+  text-align: center; }
+
+.card-m4 {
+  display: flex;
+  justify-content: center; }
+  .card-m4 h5 {
+    color: violet solid; }
+  .card-m4 .btn-card {
+    background-color: yellow; }
+
+header h1 {
+  color: green; }
+
+.h2 {
+  text-align: center;
+  color: #82ed82; }
+
+.fondoDos {
+  background-color: #82ed82; }
+  .fondoDos p {
+    color: black solid;
+    font-style: italic;
+    text-align: center;
+    justify-content: center; }
+
+div {
+  background-color: pink; }
+  div .card-text {
+    color: #511651; }
+
+div .titulos {
+  text-align: center;
+  color: violet; }
