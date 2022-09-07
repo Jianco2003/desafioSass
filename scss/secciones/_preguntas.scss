@@ -1,4 +1,10 @@
-header{
+.h2{
+  @extend %estiloParrafo 
+}
+.par{
+    @include fontStyle
+}
+.header{
     h1{
         color: green;
     }

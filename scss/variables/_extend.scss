@@ -1,0 +1,10 @@
+%estiloParrafo{
+    text-shadow: 2px;
+    background-color: orange;
+    text-align: center;
+}
+
+@mixin fontStyle {
+    text-transform: uppercase;
+    color: blue;
+}
