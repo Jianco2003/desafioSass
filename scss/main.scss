@@ -1,11 +1,11 @@
 /*Linkeo con paginas scss */
 
-@import"./variables/extend";
-
 @import"./secciones/header";
 @import"./secciones/footer";
-@import"./secciones/index.scss";
-@import"./secciones/preguntas.scss";
-@import"./secciones/mascotas.scss";
-@import"./secciones/donaciones.scss";
-@import"./secciones/contacto.scss";
+@import"./secciones/index";
+@import"./secciones/tienda";
+@import"./secciones/sucursales";
+@import"./secciones/nosotros";
+@import"./secciones/contacto";
+
+@import"./secciones/mediasqueris";

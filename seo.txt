@@ -1,0 +1,28 @@
+1. Coloque etiqutas keywords en cada uno de los HTML
+Index: céramica, tazas, bowls, artesanales, artesanias
+Tienda: Tienda, comprar, céramica, tazas, bowls, artesanales, artesanias
+Sucursales: Sucursales, dirección, taller, retirar
+Nosotros: Equipo, espacio, información
+Contacto: contacto, telefono y registro
+
+2. Coloque etiqutas description en cada uno de los HTML, utilizando descripciones diferentes
+Index: Tienda de céramica artesanal
+Tienda: Tienda de céramica artesanal, gran variedad de piezas
+Sucursales: Contamos con un taller y una ofiicina para ratirar tus piezas
+Nosotros: Acerca de nosotros y nuestro taller y equipo
+Contacto: Comunicate con nosotros para conocer mas
+
+3. Agregue los titulos correspondientes a cada HTML
+
+4. Verifique que no hubieran faltas de ortografía
+
+5. Recontruí la estructura de mi viejo css y lo linkee con el scss
+
+6. Agregue gitignore para ocultar los archivos que no necesito subir
+
+7. Subi los cambios al servidor 
+
+8. Continue con la adaptabilidad de mi pagina web (Mobile/Deskstop)
+
+9. Linkee el BOOTSTRAP y el FONTAWESOME
+

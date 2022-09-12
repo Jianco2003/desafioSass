@@ -1,14 +1,22 @@
-.p1{
-    background-color: yellow;
-    text-align: center;
-}
-.card-m4{
-    display: flex;
-    justify-content: center;
-    h5{
-        color: violet solid;
+    .main-index{
+        padding: 20px;
+        form{
+            text-align: end;
+        }
+        h1{
+        text-align: center;
+        color: rgb(203, 135, 7);
+        }
+        h3{
+        text-align: center;
+        }
+        div{
+            .card-title{
+                text-decoration: underline;
+            }
+            .btn-card{
+                background-color: rgb(216, 161, 12);
+            }
+        }
     }
-    .btn-card{
-        background-color: yellow;
-    }
-}
+        

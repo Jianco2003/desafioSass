@@ -1,0 +1,26 @@
+.main-nosotros {
+    padding: 20px;
+
+    form {
+        text-align: end;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+}
+
+.us {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+
+    .div1,
+    .div2,
+    .div3 {
+        justify-items: center;
+        display: flex;
+        text-align: center;
+    }
+}

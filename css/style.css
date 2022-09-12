@@ -1,16 +1,13 @@
 /*Linkeo con paginas scss */
-.h2 {
-  text-shadow: 2px;
-  background-color: orange;
-  text-align: center; }
-
 header {
-  justify-content: space-evenly;
-  align-items: center; }
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
   header ul {
     display: flex;
-    list-style: none;
-    justify-content: space-between; }
+    list-style: none; }
+    header ul li {
+      margin: 10px; }
 
 .footer ol {
   list-style: none;
@@ -24,45 +21,99 @@ header {
   text-align: center;
   font-weight: bold; }
 
-.p1 {
-  background-color: yellow;
-  text-align: center; }
-
-.card-m4 {
-  display: flex;
-  justify-content: center; }
-  .card-m4 h5 {
-    color: violet solid; }
-  .card-m4 .btn-card {
-    background-color: yellow; }
-
-.par {
-  text-transform: uppercase;
-  color: blue; }
-
-.header h1 {
-  color: green; }
-
-.h2 {
-  text-align: center;
-  color: #82ed82; }
-
-.fondoDos {
-  background-color: #82ed82; }
-  .fondoDos p {
-    color: black solid;
-    font-style: italic;
+.main-index {
+  padding: 20px; }
+  .main-index form {
+    text-align: end; }
+  .main-index h1 {
     text-align: center;
+    color: #cb8707; }
+  .main-index h3 {
+    text-align: center; }
+  .main-index div .card-title {
+    text-decoration: underline; }
+  .main-index div .btn-card {
+    background-color: #d8a10c; }
+
+.main-tienda {
+  padding: 20px; }
+  .main-tienda form {
+    text-align: end; }
+  .main-tienda h1 {
+    text-align: center; }
+  .main-tienda div .card-title {
+    text-decoration: underline; }
+  .main-tienda div .btn-card {
+    background-color: #d8a10c; }
+  .main-tienda div .card-img-top {
+    overflow-y: hidden; }
+
+.main-sucursales {
+  padding: 20px; }
+  .main-sucursales form {
+    text-align: end; }
+  .main-sucursales h1 {
+    text-align: center; }
+  .main-sucursales .maps {
+    display: flex;
+    justify-content: space-between; }
+  .main-sucursales .direc {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 15px;
+    margin: 20px; }
+
+.main-nosotros {
+  padding: 20px; }
+  .main-nosotros form {
+    text-align: end; }
+  .main-nosotros h1 {
+    text-align: center; }
+
+.us {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between; }
+  .us .div1,
+  .us .div2,
+  .us .div3 {
+    justify-items: center;
+    display: flex;
+    text-align: center; }
+
+.main-contacto {
+  padding: 20px; }
+  .main-contacto .form1 {
+    text-align: end; }
+  .main-contacto h1 {
+    text-align: center; }
+  .main-contacto p {
+    color: brown;
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: larger; }
+
+@media (max-width: 695px) {
+  .header {
+    flex-direction: column;
+    padding: 20px;
+    font-size: small; }
+  .header img {
+    width: 150px; }
+  .header form {
+    text-align: center; }
+  .footer ol {
+    flex-wrap: wrap; }
+  main .row {
     justify-content: center; }
+  .us .div1, .div2, .div3 {
+    width: min-content;
+    flex-wrap: wrap; } }
 
-div {
-  background-color: pink; }
-  div .card-text {
-    color: #511651; }
-
-div .titulos {
-  text-align: center;
-  color: violet; }
-
-.parrafo {
-  color: blue; }
+@media (max-width: 970px) {
+  .main-contacto .img {
+    width: 180px; }
+  .main-contacto {
+    flex-direction: column; } }

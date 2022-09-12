@@ -1,113 +1,107 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Keywords -->
-    <meta name="keywords" content="perritos, adoptar, animales, cachorros">
-    n<meta name="description" content="Nuestra organización se encarga de rescatar cachorros y conseguirles un hogar lleno de amor" >
-    <title>AYUDA-ADOPTANDO</title>
-    <!-- Linkear css -->
-    <link rel="stylesheet" href="../css/style.css">
-    <script src="https://kit.fontawesome.com/ea75fb3cab.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="céramica, tazas, bowls, artesanales, artesanias">
+    <meta name="description" content="Tienda de céramica artesanal">
+    <title>Cerámica</title>
+    <link rel="stylesheet" href="./css/style.css">
     <!-- Link=Estilo de boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ea75fb3cab.js" crossorigin="anonymous"></script>    
 </head>
 
 <body>
-    <header>
+    <!-- ENCABEZADO -->
+    <header class="header">
+        <!-- Logo -->
+        <a href="./index.html">
+            <img class="logo" src="./Imagenes/Logo Ji Cerámicas.png" alt="Logo">
+        </a>
+        <!-- Barra de navegacion -->
         <nav>
+            <!-- Lista no ordenada -->
             <ul>
                 <li><a href="./index.html">INICIO</a></li>
-                <li><a href="../pages/preguntas.html">PREGUNTAS</a></li>
+                <li><a href="../pages/tienda.html">TIENDA</a></li>
+                <li><a href="../pages/nosotros.html">NOSOTROS</a></li>
+                <li><a href="../pages/sucursales.html">SUCURSALES</a></li>
                 <li><a href="../pages/contacto.html">CONTACTO</a></li>
-                <li><a href="../pages/donaciones.html">DONACIONES</a></li>
-                <li><a href="../pages/mascotas.html">NUESTRAS MASCOTAS</a></li>
             </ul>
         </nav>
     </header>
-    <h1>Hola mundo!</h1>
-    <p class="p1">Ayudanos adoptando</p>
-    
-    <main>
-    <!-- carusel -->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://placedog.net/500" class="d-flex w-100" alt="perrito">
-            </div>
-            <div class="carousel-item">
-                <img src="https://placedog.net/503" class="d-flex w-100" alt="perrito">
-            </div>
-            <div class="carousel-item">
-                <img src="https://placedog.net/509" class="d-flex w-100" alt="perrito">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-    <!-- Comienzo de card -->
-    <div class="row">
+    <main class="main-index">
+        <!-- Barra buscadora -->
+        <form class="form" action="#">
+            <input type="search" placeholder="Busca tu pieza" name="busqueda">
+        </form>
+        <h1>BIENVENIDOS</h1>
+        <h3>Piezas de cerámica artesanales</h3>
+        <hr>
+        <p>Algunos de nuestros productos mas elegidos</p>
+        <hr>
+
+       <!-- INICIO DE CARDS -->
+       <div class="row">
         <div class="card m-4" style="width: 18rem;">
-            <img src="https://placedog.net/501/280" class="card-img-top" alt="Rocky">
+            <img src="../Imagenes/images.jpg" class="card-img-top" alt="Taza cerámica">
             <div class="card-body">
-                <h5 class="card-title">Rocky</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's
-                    content.</p>
-                <a href="#" class="btn-card">VER MAS</a>
+                <h5 class="card-title">Taza cerámica</h5>
+                <p class="card-text">Taza artesanal, con forma circular que va cerrandose hasta arriba. Con un haza muy cómoda. Pintada de un blanco marmol y base natural</p>
+                <a href="#" class="btn-card">COMPRAR</a>
             </div>
         </div>
 
         <div class="card m-4" style="width: 18rem;">
-            <img src="https://placedog.net/502/280" class="card-img-top" alt="Sanchy">
+            <img src="../Imagenes/bowls ceramica.jpg" class="card-img-top" alt="Bowls cerámica">
             <div class="card-body">
-                <h5 class="card-title">Sanchy</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's
-                    content.</p>
-                <a href="#" class="btn-card">VER MAS</a>
+                <h5 class="card-title">Bowls cerámica</h5>
+                <p class="card-text">Bowl hecho en el torno, liso y profundo. Perfecto para el uso de ensaladera individual o para postres</p>
+                <a href="#" class="btn-card">COMPRAR</a>
             </div>
         </div>
 
         <div class="card m-4" style="width: 18rem;">
-            <img src="https://placedog.net/500/280" class="card-img-top" alt="Molly">
+            <img src="../Imagenes/plato ceramica.jpg" class="card-img-top" alt="Plato cerámica">
             <div class="card-body">
-                <h5 class="card-title">Molly</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's
-                    content.</p>
-                <a href="#" class="btn-card">VER MAS</a>
+                <h5 class="card-title">Plato cerámica</h5>
+                <p class="card-text">Plato ideal para una hermosa cena, intervenido por un celeste cielo que levanta los colores de la mesa</p>
+                <a href="#" class="btn-card">COMPRAR</a>
             </div>
         </div>
-    </div>
-</main>
 
-  <!-- Pie de pagina -->
-  <footer class="footer">
-    <ol>
-        <li><i class="fa-solid fa-envelope"></i>mail</li>
-        <li><i class="fa-sharp fa-solid fa-location-dot"></i>ubicación</li>
-        <li><i class="fa-brands fa-whatsapp"></i>whatsapp</li>
-    </ol>
-    <br>
-    <p class="despedida">Gracias por tu visita</p>
-</footer>
+        <div class="card m-4" style="width: 18rem;">
+            <img src="../Imagenes/bowl ceramica" class="card-img-top" alt="Bowl cerámica">
+            <div class="card-body">
+                <h5 class="card-title">Bowl cerámica</h5>
+                <p class="card-text">Un bowl claramente profundo, ideal para comidas abundantes. Diseñado para adaptarse con cualquier tipo de decoración</p>
+                <a href="#" class="btn-card">COMPRAR</a>
+            </div>
+        </div>      
 
-    <!-- Script= contenido de boostrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
+    </div> 
+        <br><br><br>
+        <p></p>
+    </main>
+    <!-- Pie de pagina -->
+    <footer class="footer">
+        <ol>
+            <li><i class="fa-solid fa-envelope"></i>jiceramics@gmail.com</li>
+            <li><i class="fa-regular fa-user-group"></i>correo argentino</li>
+            <li><i class="fa-thin fa-bags-shopping"></i>efectivo/trajetas</li>
+            <li><i class="fa-brands fa-whatsapp"></i>1123030377</li>
+        </ol>
+        <br>
+        <p class="despedida">Gracias por tu visita :)</p>
+    </footer>
+     <!-- script= componente de boostrap -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+     crossorigin="anonymous"></script>
 </body>
 
 </html>

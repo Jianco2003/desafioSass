@@ -1,0 +1,32 @@
+@media (max-width: 695px){
+    .header{
+        flex-direction: column;
+        padding: 20px;
+        font-size: small;
+    }
+    .header img{
+        width: 150px;
+    }
+    .header form{
+        text-align: center;
+    }
+    .footer ol{
+        flex-wrap: wrap;
+    }
+    main .row{
+        justify-content: center;
+    }
+    .us .div1,.div2,.div3{
+        width: min-content;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 970px){
+    .main-contacto .img{
+        width: 180px;
+    }
+    .main-contacto{
+        flex-direction: column;
+    }
+}
