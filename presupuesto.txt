@@ -1,0 +1,27 @@
+PRESUPUESTO WEB
+
+1)Instalación $3500
+2)Diseño de sitio web $7500
+3)Su desarrollo $12000
+4)SEO standar $2000
+
+Presupuesto total: $25.000
+
+1)Instalación
+- La equipación de programas necesarios a su ordenador
+
+2)Diseño de sitio web 
+- Diseño de los frameworks
+- Diseño de las páginas web (5 html), en ambas versiones, Mobile y Deskstop
+
+3)Su desarrollo
+- La creación y desarrollo de las páginas diseñadas en el paso anterior
+- Cualquier pequeña modificación estética que se haya querido agregar
+- Implementación de algún formulario o encuesta para interactuar con mas profundida con su cliente
+
+4) SEO 
+- Instalación de Google Analytics para medir las visitas del site.
+- Ubicacar tu sitio en un hosting seguro, el cuál se decidirá entre el cliente y el programador
+
+Si se desea un constante mantenimiento del sitio, los aranceles de esto se conversaran tambien
+
