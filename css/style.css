@@ -78,21 +78,20 @@ header {
 
 .main-nosotros {
   padding: 20px; }
-  .main-nosotros form {
+  .main-nosotros .busca {
     text-align: end; }
   .main-nosotros h1 {
     text-align: center; }
-
-.us {
-  flex-direction: row;
-  display: flex;
-  justify-content: space-between; }
-  .us .div1,
-  .us .div2,
-  .us .div3 {
-    justify-items: center;
-    display: flex;
-    text-align: center; }
+  .main-nosotros .grid-container {
+    display: grid;
+    flex-direction: column; }
+    .main-nosotros .grid-container img {
+      justify-items: center;
+      width: 350px;
+      height: 219px;
+      margin: 20px;
+      padding: 20px;
+      box-sizing: initial; }
 
 .main-contacto {
   padding: 20px; }

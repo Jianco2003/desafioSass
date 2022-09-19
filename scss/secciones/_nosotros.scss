@@ -1,7 +1,7 @@
 .main-nosotros {
     padding: 20px;
 
-    form {
+    .busca {
         text-align: end;
     }
 
@@ -9,18 +9,16 @@
         text-align: center;
     }
 
-}
-
-.us {
-    flex-direction: row;
-    display: flex;
-    justify-content: space-between;
-
-    .div1,
-    .div2,
-    .div3 {
-        justify-items: center;
-        display: flex;
-        text-align: center;
+    .grid-container {
+        display: grid;
+        flex-direction: column;
+        img {
+            justify-items: center;
+            width: 350px;
+            height: 219px;
+            margin: 20px;
+            padding: 20px;
+            box-sizing: initial;
+        }
     }
 }
