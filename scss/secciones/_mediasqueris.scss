@@ -20,13 +20,13 @@
         width: min-content;
         flex-wrap: wrap;
     }
+    .main-contacto p{
+        font-size: x-small;
+        box-sizing: content-box;
+    }
+    .main-sucursales .maps{
+        flex-direction: column;
+        margin: 20px;
+    }
 }
 
-@media (max-width: 970px){
-    .main-contacto .img{
-        width: 180px;
-    }
-    .main-contacto{
-        flex-direction: column;
-    }
-}

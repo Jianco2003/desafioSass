@@ -10,7 +10,14 @@
         color: brown;
         padding-top: 20px;
         text-align: center;
-        text-decoration: underline;
         font-size: larger;
     }
+    .form-contacto{
+        display: grid;
+        width: 50%;
     }
+    input{
+        margin: 10px;
+    }
+}
+
